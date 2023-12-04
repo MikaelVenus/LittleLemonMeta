@@ -20,3 +20,6 @@ class Menu(models.Model):
         MinValueValidator(0),
         MaxValueValidator(99999)  # Maximum 6 digits
     ])
+
+    def get_item(self): #Use for test
+        return f'{self.title} : {str(self.price)}'
