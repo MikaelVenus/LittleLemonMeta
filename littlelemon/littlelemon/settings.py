@@ -83,11 +83,11 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'reservations2',
+        'NAME': 'reservations_database',
         'HOST' : '127.0.0.1',
         'PORT' : '3306',
         'USER' : 'root',
-        'PASSWORD' : 'P@ssw0rd',
+        'PASSWORD' : 'yourpassword',
     }
 }
 
